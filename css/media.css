@@ -1,0 +1,289 @@
+@media (max-width: 480px) {
+    .del-mobile {
+        display: none;
+    }
+
+    .del-dec {
+        border: none;
+        display: flex;
+        color: white;
+        width: 35px;
+        height: 35px;
+    }
+
+    .name-header {
+        font-family: "Public Sans", sans-serif;
+        color: white;
+        font-size: 50px;
+        border-bottom: none;
+        font-weight: 800;
+    }
+
+    .header {
+        background: url("../img/Без-названия.png");
+        background-size: cover;
+        width: 100vw;
+        height: 935px;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .about {
+        height: 1150px;
+    }
+
+    .about-block {
+        margin-top: 56px;
+        margin-left: 0px;
+        gap: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about-content img {
+        border-radius: 10px;
+        box-shadow: 0px 0px 60px black;
+        width: 335px;
+        height: 335px;
+    }
+
+    .about-text span{
+        color: black;
+        font-size: 19px;
+        font-weight: 600;
+    }
+    
+    .about-text {
+        margin-top: 0px;
+        height: 500px;
+    }
+    
+    .about-text span a{
+        color: #da0700;
+        border-bottom: 2px solid #da0700;
+        font-size: 19px;
+        font-weight: 600;
+    }
+    
+    .about-text p{
+        max-width: 335px;
+        letter-spacing: 1px;
+        margin-top: 20px;
+        line-height: 143%;
+        color: black;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 32px;
+    }
+
+    .blog {
+        height: 1200px;
+        background: black;
+    }
+
+    .blog-block {
+        margin-top: 32px;
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .blog-row {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .blog-content {
+        background: #2c2c2c;
+        border-radius: 10px;
+        padding: 25px 20px;
+        width: 300px;
+        height: 300px;
+        transition: 0.4s all;
+    }
+
+    .blog-content__text {
+        text-align: center;
+    }
+    
+    .blog-content__text img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 16px;
+    }
+    
+    .blog-content__text p {
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        color: #ff0000;
+    }
+    
+    .blog-content__text span {
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+        line-height: 153%;
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+    .contact {
+        margin-top: 130px;
+        height: 1200px;
+    }
+
+    .contact-block {
+        display: flex;
+        margin-left: 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact-text__head h2 {
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 10px;
+        color: black;
+    }
+    
+    .contact-text__head p {
+        font-size: 18px;
+        font-weight: 600;
+        color: rgb(211, 0, 0);
+        text-align: center;
+    }
+
+    .contact-block {
+        margin-top: 32px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-row h4 {
+        font-size: 18px;
+        font-weight: 700;
+        color: black;
+    }
+    
+    .contact-row p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 140%;
+        font-weight: 300;
+        width: 335px;
+        color: black;
+    }
+
+    .contacts {
+        margin-left: 0px;
+    }
+    
+    .contacts h4 {
+        font-size: 18px;
+        font-weight: 700;
+        color: black;
+        margin-bottom: 24px;
+    }
+
+    .contacts button {
+        margin-top: 32px;
+        border-radius: 5px;
+        background-color: rgb(211, 0, 0);
+        width: 335px;
+        height: 35px;
+        font-size: 16px;
+        font-weight: 500;
+        border: 2px solid rgb(211, 0, 0);
+        transition: 0.2s all;
+    }
+    
+    .contacts button:hover {
+        
+        box-shadow: 0 0 20px red;
+        background: none;
+        color: rgb(211, 0, 0);
+    }
+
+    .form-name {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .form-name input{
+        padding: 5px 5px;
+        border-bottom: 2px solid black;
+        width: 335px;
+        font-size: 16px;
+        font-weight: 500;
+        color: black;
+        background: #f0f0f0;
+    }
+
+    .subject::placeholder {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .subject {
+        margin-bottom: 20px;
+        width: 335px;
+        border-bottom: 2px solid black;
+        background: #f0f0f0;
+        font-size: 16px;
+        font-weight: 500;
+        color: black;
+        padding: 5px 5px;
+    }
+
+    .textarea {
+        padding: 5px 5px;
+        border-bottom: 2px solid black;
+        outline: none;
+        font-size: 18px;
+        font-weight: 600;
+        color: black;
+        background: #f0f0f0;
+        width: 335px;
+        height: 250px;
+        resize: none;
+    }
+    
+    
+    .textarea::placeholder {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .footer-hi__text h2 {
+        padding-top: 32px;
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 15px;
+        color: white;
+    }
+
+    .footer {
+        height: 2480px;
+        background: #080808;
+    }
+    
+    .footer-hi__text p a{
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        border-bottom: 2.5px solid currentColor;
+        max-width: 700px;
+        color: rgb(40, 80, 255);
+        text-align: center;
+    }
+}
