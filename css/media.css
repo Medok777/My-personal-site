@@ -23,7 +23,7 @@
         background: url("../img/Без-названия.png");
         background-size: cover;
         width: 100vw;
-        height: 935px;
+        height: 100vh;
         background-repeat: no-repeat;
         background-position: center center;
     }
@@ -286,4 +286,5 @@
         color: rgb(40, 80, 255);
         text-align: center;
     }
+
 }
