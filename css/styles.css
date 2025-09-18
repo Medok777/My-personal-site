@@ -71,7 +71,7 @@ nav ul li a:hover {
     justify-content: center;
     text-align: center;
     align-items: center;
-    height: 1000px;
+    height: 100vh;
 }
 
 .header-text p {
@@ -570,3 +570,4 @@ nav ul li a:hover {
     display: none;
 
 }
+
